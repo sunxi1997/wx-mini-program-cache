@@ -1,11 +1,12 @@
 {
   "name": "wx-mini-program-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "封装微信的storage，并且加入过期计时",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "miniprogram": "dist",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sunxi1997/wx-mini-program-cache.git"
