@@ -1,6 +1,6 @@
 {
   "name": "wx-mini-program-cache",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "封装微信的storage，并且加入过期计时",
   "main": "dist/index.js",
   "scripts": {

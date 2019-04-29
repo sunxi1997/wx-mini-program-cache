@@ -11,9 +11,9 @@ export default {
  *
  * @param   {String}  key           缓存的key名称
  * @param             data          缓存的数据
- * @param   {Number}  cache_time    过期时间，默认0（永不过期）
+ * @param   {Number}  cache_time    过期时间(单位ms)，默认0（永不过期）
  *
- * @return  Promise   resolve:缓存结果
+ * @return  {Promise|Null}   resolve:缓存结果
  */
 export function setCache(key, data, cache_time = 0) {
   return new Promise((resolve, reject) => {
@@ -31,7 +31,6 @@ export function setCache(key, data, cache_time = 0) {
     });
   })
 }
-
 
 /**
  * @method  getCache  获取缓存的数据
