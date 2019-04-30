@@ -66,7 +66,7 @@ export function getCache(key) {
  *
  * @param   {String}  key           缓存的key名称
  *
- * @return  Promise   resolve:移除结果
+ * @return  {Promise|Null}   resolve:移除结果
  */
 export function removeCache(key) {
   return new Promise((resolve, reject) => {
