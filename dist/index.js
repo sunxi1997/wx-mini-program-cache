@@ -10,7 +10,7 @@ export default {
  * @method  setCache  缓存一个数据
  *
  * @param   {String}  key           缓存的key名称
- * @param             data          缓存的数据
+ * @param   {*}       data          缓存的数据
  * @param   {Number}  cache_time    过期时间(单位ms)，默认0（永不过期）
  *
  * @return  {Promise|Null}   resolve:缓存结果
